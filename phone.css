@@ -27,6 +27,7 @@
 
 .continer_mid::before {
     height: 45%;
+    width: 100vw;
 
 }
 
@@ -61,7 +62,7 @@
     margin-top: -60px;
 }
 .Our_serices .center{
-    margin: 0px 3px;
+    margin: -65px 3px;
     text-align: center; 
     /* width: 200px;  */
     font-size: 24px;
@@ -101,7 +102,7 @@
 /* our-client */
 .our-client {
     /* display: none; */
-    margin-top: 350px;
+    margin-top: 300px;
     width: 100vw;
 }
 

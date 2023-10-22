@@ -66,8 +66,8 @@
     left: 0;
     z-index: -1;
     opacity: 0.9;
-    height: 400px;
-    width: 100%;
+    height: 450px;
+    width: 98.78vw;
 }
 .continer_mid h1{
     margin: 4px 6px;
@@ -110,7 +110,7 @@
  margin-top: 30px;
 }
 .box{
-    padding: 24px 18px;
+    padding: 24px 15px;
     margin: 20px 40px;
     border: 2px solid black;
     border-radius: 23px;
