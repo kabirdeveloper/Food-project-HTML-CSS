@@ -1,0 +1,155 @@
+
+/* navbar  */
+#navbar {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+#navbar ul li {
+    padding: 2px 3px;
+    list-style: none;
+}
+
+#navbar ul li a {
+    padding: 1px 1px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .continer_mid */
+.continer_mid {
+    /* display: none; */
+    margin-top: -50px;
+}
+
+.continer_mid::before {
+    height: 45%;
+
+}
+
+.continer_mid h1 {
+    margin: 2px 3px;
+    padding: 1px 4px;
+    color: white;
+    font-size: 1.3rem;
+    /* display: none; */
+}
+
+.continer_mid p {
+    margin: 2px 3px;
+    color: white;
+    font-size: 9px;
+    /* display: none; */
+}
+
+.btn {
+    margin: 5px 2px;
+    padding: 8px 9px;
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+/* Our_serices */
+.Our_serices {
+    /* display: none; */
+    margin-top: -60px;
+}
+.Our_serices .center{
+    margin: 0px 3px;
+    text-align: center; 
+    /* width: 200px;  */
+    font-size: 24px;
+    font-style: bold;
+}
+
+.Our_serices #box {
+    flex-direction: column;
+    /* display: none; */
+    margin-top: 350px;
+}
+#box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    margin-top: 30px;
+   }
+.box {
+    padding: 5px 5px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    border-radius: 23px;
+    background-color: rgb(208, 247, 247);
+}
+.box h1{
+    margin: 3px 4px;
+    padding: 1px 10px;
+    font-size: 22px;
+}
+.box p{
+    margin: 1px 1px;
+    padding: 1px 1px;
+    font-size: 10px;
+}
+
+/* our-client */
+.our-client {
+    /* display: none; */
+    margin-top: 350px;
+    width: 100vw;
+}
+
+.our-client .center {
+    margin: 10px 3px;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 30px;
+    font-style: bold;
+}
+
+#icon img {
+
+    height: 50px;
+    margin: 20px 10px;
+    padding: 2px 5px;
+}
+
+/* .contant */
+.contant {
+    /* display: none; */
+    height: 460px;
+    
+}
+.contant .center{
+    margin: -1px 2px;
+    text-align: center;
+    padding: 13px 10px;
+    font-size: 24px;
+    font-style: bold;
+}
+form{
+    height: 500px;
+    margin: 5px auto;
+    width: 80%;
+    /* padding: 20px 30px; */
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-size: 16px;
+}
+form input{
+    font-size: 16px;
+    margin: 3px 2px;
+    padding: 4px 15px;
+    text-align: center;
+}
+textarea{
+    height: 100px;
+}
